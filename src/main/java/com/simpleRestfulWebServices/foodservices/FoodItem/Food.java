@@ -15,6 +15,7 @@ public class Food {
 	private int quantity;
 	private String location;
 	private double price;
+	private int servings;
 	
 	public String getName() {
 		return name;
@@ -45,6 +46,12 @@ public class Food {
 	}
 	public void setPrice(double price) {
 		this.price = price;
+	}
+	public int getServings() {
+		return servings;
+	}
+	public void setServings(int servings) {
+		this.servings = servings;
 	}
 	
 	protected Food() {
